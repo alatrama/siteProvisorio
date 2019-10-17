@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+	<meta property="og:title" content="Blackfriday 2019 Madesa Móveis">
+	<meta property="og:url" content="/">
+	<meta property="og:type" content="website">
+	<meta property="og:description" content="Móveis com Desconto na Black Friday 2019 Madesa Móveis. Oportunidades únicas em Cozinhas, Sala de Jantar, Dormitórios, Estantes e racks e Escritórios. Aproveite!">
+	<meta property="fb:admins" content="madesa">
+	<meta name="robots" content="nofollow">
+
+	<title>Madesa Móveis</title>
+	<link rel="shortcut icon" type="image/x-icon" href="https://www.madesa.com/favicon.ico">
+	<meta name="description" content="Móveis com Desconto na Black Friday 2019 Madesa Móveis. Oportunidades únicas em Cozinhas, Sala de Jantar, Dormitórios, Estantes e racks e Escritórios. Aproveite!">
+	<meta name="keywords" content="mesa de jantar, mesa 4 cadeiras, moveis, mesa de madeira, cadeiras de madeira, moveis de madeira, mesas e cadeiras, moveis escritorio, mesa madeira, móveis madeira, madeira para moveis, mesa de jantar madeira, mesa de madeira redonda,
+	moveis em madeira">
+	<meta name="viewport" content="width=device-width, user-scalable=no">
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato:300,900" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<script>
+		//blackfriday timer
+		var countDownDate = new Date("Nov 28, 2019 23:59:59").getTime();
+
+		setInterval(function() {
+			var now = new Date().getTime(); 
+
+			var distance = countDownDate - now;
+
+			var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+			var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+			var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+			var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+			document.getElementById("days").innerHTML = ('0' + days).slice(-2);
+			document.getElementById("hours").innerHTML = ('0' + hours).slice(-2);
+			document.getElementById("minutes").innerHTML = ('0' + minutes).slice(-2);
+			document.getElementById("seconds").innerHTML = ('0' + seconds).slice(-2);
+			if (seconds == 1) {
+				document.getElementById("seconds-txt").innerHTML = "segundo";
+			} else {
+				document.getElementById("seconds-txt").innerHTML = "segundos";
+			}
+			if (minutes == 1) {
+				document.getElementById("minutes-txt").innerHTML = "minuto";
+			} else {
+				document.getElementById("minutes-txt").innerHTML = "minutos";
+			}
+			if (hours == 1) {
+				document.getElementById("hours-txt").innerHTML = "hora";
+			} else {
+				document.getElementById("hours-txt").innerHTML = "horas";
+			}
+			if (days == 1) {
+				document.getElementById("days-txt").innerHTML = "dia";
+			} else {
+				document.getElementById("days-txt").innerHTML = "dias";
+			}
+		}, 1000);
+	</script>
+	<link href="css/blackfriday.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+	<!-- HEADER -->
+
+	<header>
+		<span class="header-text-align-center">
+			<img class="header-image" src="imagens/landing madesa-03.jpg">
+		</span>
+	</header>
+
+	<!-- LEAD -->
+
+	<div class="leads bgcolor-lightgrey">
+		<h3 class="m-0 pt-5 pb-3 leads-title"><strong>Cadastre o seu e-mail e<br>receba as melhores ofertas<br>da <span class="color-blackred">black friday 2019</span></strong></h3>
+		<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" type="text/css">
+
+		<div class="mc_embed_signup leads-signup bgcolor-lightgrey">
+			<form action="https://madesa.us4.list-manage.com/subscribe/post?u=90a7a75684cc9460d0620ec9f&amp;id=db792ae450" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			    <div id="mc_embed_signup_scroll" class="leads-container">
+					<input type="email" value="" name="EMAIL" class="email leads-input-top" id="mce-EMAIL" placeholder="Digite seu e-mail" required>
+				    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				    <div class="leads-inside-container" aria-hidden="true"><input type="text" name="b_90a7a75684cc9460d0620ec9f_db792ae450" tabindex="-1" value=""></div>
+				    <div id="sbt-button" class="clear">
+				    	<input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe" class="leads-button leads-input-top">
+				    </div>
+			    </div>
+			</form>
+		</div>
+	</div>
+
+	<!-- TIMER -->
+
+	<div class="timer">
+		<div class="row justify-content-center timer">
+			<div class="timer-title col-sm-12 col-md-12 col-lg-3 col-xl-2">
+				<h1 class="text-timer">FALTAM</h1>
+			</div>
+			<div class="col-sm-1 col-md-2 col-lg-1 col-xl-1 text-center">
+				<h1 class="text-timer" id="days">00</h1>
+				<span id="days-txt">dias</span>
+			</div>
+			<div class="col-sm-1 col-md-2 col-lg-1 col-xl-1 text-center">
+				<h1 class="text-timer" id="hours">00</h1>
+				<span id="hours-txt">horas</span>
+			</div>
+			<div class="col-sm-1 col-md-2 col-lg-1 col-xl-1 text-center">
+				<h1 class="text-timer" id="minutes">00</h1>
+				<span id="minutes-txt">minutos</span>
+			</div>
+			<div class="col-sm-1 col-md-2 col-lg-1 col-xl-1 text-center">
+				<h1 class="text-timer" id="seconds">00</h1>
+				<span id="seconds-txt">segundos</span>
+			</div>
+		</div>
+	</div>
+
+	<!-- INTRODUCTION -->
+
+	<div class="introdu">
+		<div class="row justify-content-center">
+			<div class="col-sm-10 col-md-6 col-lg-6 col-xl-6 container-introdu introdu-t">
+				<span class="introdu-text-align-center">
+					<img class="introdu-image" src="imagens/landing madesa-02.png">
+					<p>
+						O que define a Madesa é a paixão e a dedicação com que criamos nossos móveis e atendemos os clientes. Nossa missão é levar mais vida ao dia a dia das pessoas. Para isso, estamos presentes em diversos pontos de venda físicos e online, no Brasil e no exterior, para tornar a experiência de compra do nosso cliente mais fácil e conveniente possível. Conheça nossa linha de produtos que contempla a casa toda e se encante!
+					</p>	
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<!-- DETAILS -->
+
+	<div class="row justify-content-center details-master">
+		<div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 container-details">
+			<span id="deatils-container-image" class="details-text-align-center align-content-center">
+				<img id="details-image" src="imagens/landing madesa-03.jpg" style="width: 33vw">
+			</span>
+		</div>
+		<div id="details-text" class="col-sm-12 col-md-5 col-lg-5 col-xl-5 container-details align-content-center">
+			<span class="details-text-align-center">
+				<p class="text-details">
+					A Black Friday é uma campanha de vendas já consolidada que traz oportunidades e descontos em diversas categorias. Em 2019 a Black Friday Brasil acontece dia 29, na última sexta-feira de Novembro, e aqui na Madesa Móveis teremos ofertas incríveis. Além da grande economia nas compras, sua casa estará com móveis lindos nas festas de final de ano.
+				</p>	
+				<p class="text-details">
+					<strong>Faça seu cadastro e aproveite as ofertas em
+					primeira mão!</strong>
+				</p>
+			</span>
+		</div>
+	</div>
+
+	<!-- CONTENT -->
+
+    <div class="align-content-center">
+        <h2 class="master-title-content" style="margin: 0"><strong>CONHEÇA A LINHA DA MADESA MÓVEIS</strong></h2>
+    </div>
+
+	<!-- cozinha -->
+	<div class="row justify-content-center master-container-content bgcolor-lightgrey">
+		<div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 container-content align-content-right item-order">
+			<span class="details-text-align-center">
+				<img src="imagens/landing madesa-05.jpg" class="image-content">
+			</span>
+		</div>
+		<div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 container-content content-text">
+			<span class="content-text-align-center">
+				<h3 class="title-content"><strong>COZINHAS</strong></h3>
+				<p class="text-content">
+					As cozinhas da Madesa são práticas, bonitas e funcionais. Cozinhas completas, compactas e planejadas. No estilo moderno ou retrô. Com opção de gavetas com corrediça telescópica e portas com amortecedor para fechamento suave. Itens de qualidade superior que conferem durabilidade e maior vida útil ao móvel. 
+                    <strong>Aproveite as ofertas da Black Friday 2019 para renovar sua cozinha.
+                    </strong>
+				</p>
+			</span>
+		</div>
+	</div>
+
+	<!-- sala de jantar -->
+	<div class="row justify-content-center master-container-content bgcolor-lightgrey">
+		<div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 container-content align-content-right content-text">
+			<span class="content-text-align-center">
+				<h3 class="title-content"><strong>SALAS DE JANTAR</strong></h3>
+				<p class="text-content">
+					Conjuntos de mesas e cadeiras, aparadores, buffets e muitos itens que vão deixar sua sala de jantar maravilhosa. Mesas com tampo de vidro ou madeira, cadeiras estofadas com diversos materiais e estilos. 
+                    <strong>A Madesa vai preparar ofertas irresistíveis para a Black Friday.</strong>
+				</p>
+			</span>
+		</div>
+		<div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 container-content">
+			<span class="details-text-align-center">
+				<img src="imagens/landing madesa-06.jpg" class="image-content">
+			</span>
+		</div>
+	</div>
+
+	<!-- dormitorio -->
+	<div class="row justify-content-center master-container-content bgcolor-lightgrey">
+		<div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 container-content align-content-right item-order">
+			<span class="details-text-align-center">
+				<img src="imagens/landing madesa-07.jpg" class="image-content">
+			</span>
+		</div>
+		<div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 container-content content-text">
+			<span class="content-text-align-center">
+				<h3 class="title-content"><strong>DORMITÓRIOS</strong></h3>
+				<p class="text-content">
+					Guarda roupas com 2, 3 ou 4 portas é na Black Friday Madesa. Aqui você encontra os melhores roupeiros, cabeceiras, penteadeiras e criados mudos com qualidade internacional e acabamento resistente e durável. 
+                    <strong>Ofertas irresistíveis que ficarão perfeitas em seu quarto.</strong>
+				</p>
+			</span>
+		</div>
+	</div>
+
+	<!-- estante e rack -->
+	<div class="row justify-content-center master-container-content bgcolor-lightgrey">
+		<div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 container-content align-content-right  content-text">
+			<span class="content-text-align-center">
+				<h3 class="title-content"><strong>ESTANTES E RACKS</strong></h3>
+				<p class="text-content">
+					As melhores estantes, racks e painéis de TV você encontra na Black Friday 2019 Madesa Móveis. Com acabamento em Pintura Poliéster de alta resistência, são espaços pensados para organizar todos os aparelhos e dispositivos eletrônicos. <strong>Aproveite as ofertas da Black Friday para renovar sua casa.</strong>
+				</p>
+			</span>
+		</div>
+		<div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 container-content">
+			<span class="details-text-align-center">
+				<img src="imagens/landing madesa-08.jpg" class="image-content">
+			</span>
+		</div>
+	</div>
+
+	<!-- escritorio -->
+	<div class="row justify-content-center master-container-content bgcolor-lightgrey last-item">
+		<div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 container-content align-content-right item-order">
+			<span class="details-text-align-center">
+				<img src="imagens/landing madesa-09.jpg" class="image-content">
+			</span>
+		</div>
+		<div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 container-content  content-text">
+			<span class="content-text-align-center">
+				<h3 class="title-content"><strong>ESCRITÓRIOS</strong></h3>
+				<p class="text-content">
+					Escrivaninhas, estantes, gaveteiros, mesas de escritório e muitos mais. São móveis com estilo retrô e contemporâneo e ampla variedade de cores, seguindo tendências internacionais. <strong>A Madesa tem ofertas imperdíveis para a Black Friday 2019.</strong>
+				</p>
+			</span>
+		</div>
+	</div>
+
+	<!-- LEADS 2 -->
+
+	<div class="leads leads-vermelho">
+		<h3 class="m-0 pt-5 pb-3 leads-title"><strong>NÃO PERCA NENHUMA OFERTA
+			<br>DA BLACK FRIDAY 2019</strong></h3>
+		<link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" type="text/css">
+		
+		<div class="mc_embed_signup leads-signup bgcolor-blackred">
+			<form action="https://madesa.us4.list-manage.com/subscribe/post?u=90a7a75684cc9460d0620ec9f&amp;id=db792ae450" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			    <div id="mc_embed_signup_scroll" class="leads-container">
+					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Digite seu e-mail" required>
+				    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				    <div class="leads-inside-container" aria-hidden="true"><input type="text" name="b_90a7a75684cc9460d0620ec9f_db792ae450" tabindex="-1" value=""></div>
+				    <div id="sbt-button" class="clear">
+				    	<input type="submit" value="Enviar" name="subscribe" id="mc-embedded-subscribe" class="leads-button">
+				    </div>
+			    </div>
+			</form>
+		</div>
+	</div>
+
+	<!-- LIST -->
+
+	<div class="row justify-content-center list-container">
+		<div class="col-sm-12 col-md-5 col-lg-5 col-xl-5 container-details">
+				<img id="details-image" src="imagens/landing madesa-03.jpg">
+
+		</div>
+		<div class="col-sm-6 col-md-6 col-lg-5 col-xl-5 container-list">
+			<span class="list-text-align-center align-content-center">
+				<h3 class="list-title">PRINCIPAIS MOTIVOS<br>
+					PARA VOCÊ COMPRAR<br>
+					NA MADESA
+				</h3>
+				<ul class="list align-content-left">
+					<li>
+						<img class="list-icon" src="imagens/landing madesa-10.jpg"> 
+						Entrega rápida
+					</li>
+					<li>
+						<img class="list-icon" src="imagens/landing madesa-11.jpg"> 
+						Pagamento facilitado
+					</li>
+					<li>
+						<img class="list-icon" src="imagens/landing madesa-12.jpg"> 
+						Compra segura
+					</li>
+					<li>
+						<img class="list-icon" src="imagens/landing madesa-13.jpg"> 
+						Atendimento
+					</li>
+				</ul>		
+			</span>
+		</div>
+	</div>
+
+	<!-- FOOTER -->
+	<!-- ok desk -->
+
+	<footer>
+		<h3 class="footer-title">ACOMPANHE A MADESA<br>
+			NAS REDES SOCIAIS<br>
+		</h3>
+		<a href="https://www.instagram.com/madesamoveis/?hl=pt-br"><img class="footer-img" src="imagens/landing madesa-14.jpg"></a>
+		<a href="https://pt-br.facebook.com/madesamoveis/"><img class="footer-img" src="imagens/landing madesa-15.jpg"></a>
+		<a href="https://pt.linkedin.com/company/madesa-moveis"><img class="footer-img" src="imagens/landing madesa-16.jpg"></a>
+		<a href="https://www.youtube.com/channel/UCCTJyZaZsozHvZgU0TZNnmg"><img class="footer-img" src="imagens/landing madesa-17.jpg"></a><br>
+		<img class="footer-logo" src="imagens/landing madesa-18.jpg">
+		<p class="footer-copy" style="padding-bottom: 5%; margin-bottom: 0;">Copyright © 2019 - Madesa | Desenvolvido por <a class="link-vision" href="https://visiondev.com.br">Vision</a></p>
+	</footer>
+</body>
+</html>

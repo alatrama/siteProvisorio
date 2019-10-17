@@ -1,0 +1,394 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+p,h3,h2,h1,input{
+	font-family: 'Lato', sans-serif;
+}
+h2{
+	font-size: 40px;
+}
+h1{
+	font-size: 50px;
+}
+header{
+	background-color: black;
+	height: 50vh;
+	line-height: 50vh;
+	text-align: center
+}
+footer{
+	text-align: center; 
+	color: white; 
+	background-color: #86181A;
+}
+.header-image{
+	max-width: 70%; 
+	max-height: 50vh;
+}
+.timer{
+	padding: 3vh 0 3vh;
+	background-color: #000;
+	color: #fff;
+}
+.introdu{
+	height: 60vh;
+	color: #fff;
+	font-size: 25px;
+	font-weight:300;
+	background-image: url("../imagens/madesa-empresa.jpg");
+	background-size: cover;
+}
+.container-introdu{
+	height: 50vh; 
+	line-height: 50vh;
+}
+.container-content{
+	height: 100%; 
+	line-height: 100%;
+}
+ul{
+	margin: 0;
+}
+.list-container{
+	padding: 5% 0;
+}
+
+.text-details{
+	font-size: 25px;
+	font-weight: 300;
+}
+.button{
+	color: #fff !important;
+	background-color: #F90606 !important;
+}
+.text-content{
+	font-size: 150%;
+	color: white;
+}
+.title-content{
+	color: #86181A; 
+	font-size: 300%
+}
+.content-text-align-center, 
+.introdu-text-align-center, 
+.header-text-align-center,
+.details-text-align-center,
+.list-text-align-center{
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+}
+.container-content{
+	height: 60vh; 
+	line-height: 60vh
+}
+.image-content{
+	width: 45vh;
+}
+.align-content-right{
+	text-align: right;
+}
+.align-content-center{
+	text-align: center;
+}
+.align-content-left{
+	text-align: left;
+}
+.leads{ 
+	padding-bottom: 5%;
+}
+.leads-vermelho,
+.master-title-content{
+	background-color: #86181A; 
+	color: white;
+}
+.leads-title{
+	text-transform: uppercase; 
+	text-align: center;
+	font-size: 2vw;
+}
+.leads-container{
+	background-color: #F90606; 
+	color: white;
+}
+.color-blackred{
+	color: #F90606
+}
+.mc_embed_signup{
+	background:#fff; 
+	clear:left; 
+	font:14px Helvetica,Arial,sans-serif; 
+	width:100%;
+}
+.leads-signup{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font-size:1vw;
+}
+.bgcolor-blackred{
+	background-color: #86181A;
+}
+.bgcolor-lightgrey{
+	background-color: #E6E7E8;
+}
+.email{
+	float: left;
+	width: 50vw;
+	padding: 1.5vh 0;
+	text-align: center;
+	border: none;
+}
+.leads-inside-container{
+	position: absolute; 
+	left: -5000px;
+}
+#details-image{
+	width: 80%;
+}
+.clear{
+	float: left;
+}
+.leads-button{
+	padding: 1.5vh 4vh;
+	border: none;
+	color: #fff;
+	background-color: #F90606;
+}
+.row{
+	margin: 0;
+}
+.introdu-image{
+	width: 20vw;
+	margin-bottom: 5%;
+	opacity: .6;
+}
+.details-master{
+	background-color: black; 
+	color: white
+}
+.text-timer{
+	font-weight: bold;
+}	
+.list-title,
+.footer-title{
+	font-size: 220%;
+}
+.image-list{
+	max-width: 60%; 
+	max-height: 60%; 
+	margin-right: 15%;
+}
+.list-container{
+	background-color: black; 
+	color: white;
+}
+.list{
+	list-style-type:none;
+}
+.list-icon{
+	max-height: 4vw;
+}
+.footer-title{
+	padding-top: 5%;
+}
+.footer-img{
+	max-height: 15vw; 
+	max-width: 15vh; 
+	margin: 45px 10px;
+}
+.footer-logo{
+	max-height: 5vw; 
+	max-width: 15vh;
+}
+.footer-copy{
+	padding-bottom: 5%; 
+	margin-bottom: 0;
+}
+.master-title-content{
+	padding: 20px 15px
+}
+.master-container-content{
+	background-color: black;
+}
+.link-vision, .link-vision:hover, .link-vision:focus{
+	color: #fff;
+	font-weight: 100;
+	text-decoration: none;
+}
+
+.leads-input-top{
+	border: solid #f00 2px;
+}
+
+#mce-EMAIL:focus{
+	outline: 5px red;
+}
+
+/*  From laptop l to ∞  */
+@media screen and (min-width: 1500px){
+	p{
+		font-size: 35px !important;
+	}
+	.introdu-image{
+		width: 15vw;
+	}
+}
+
+/*  From tablet to ∞  */
+@media screen and (min-width: 768px){
+	.introdu-t{
+		right: 20%;
+	}
+	.details-text-align-center{
+		text-align: left;
+	}
+	.introdu,
+	.details-master{
+		padding: 5vh 0;
+	}
+}
+
+/*  From 0 to laptop l  */
+@media screen and (max-height: 1440px) {
+  	.leads-title,
+  	.title-content,
+  	.footer-title,
+  	.list-title {
+   	    font-size: 35px;
+  	}
+}
+
+/*  From 0 to laptop*/
+@media screen and (max-width: 1439px){
+	.timer-title{
+		text-align: center;
+	}
+}
+
+/*  From 0 to tablet  */
+@media screen and (max-width: 1023px){
+	.text-content{
+		font-size:125%;
+	}
+	.introdu-t{
+		font-size: 80%;
+	}
+	.text-details{
+		font-size: 20px;
+	}
+	#mce-EMAIL,
+	#mc-embedded-subscribe{
+		font-size: 13px;
+	}
+	.image-content{
+		width: 100%;
+	}
+	.title-content{
+		font-size: 200%;
+	}
+	.leads-title,
+	.list-title{
+		font-size:32px;
+	}
+	.image-list{
+		max-width: 80%; 
+	}
+	.master-title-content{
+		font-size: 35px;
+	}
+}
+
+/*  From 0 to mobile l  */
+@media screen and (max-width: 767px){
+	.col-sm-1{
+		width: auto;
+	}
+	.text-timer,
+	.title-content,
+	.list-title,
+	.footer-title,
+	.leads-title,
+	.text-timer{
+		font-size: 30px;
+	}
+	ul{
+		padding: 0px;
+		font-size: 20px;
+	}
+	.leads{
+		padding-bottom: 15%;
+	}
+	.container-details,
+	.content-text,
+	.container-list{
+		text-align: center;
+		padding: 25px 0;
+		height: auto;
+		line-height: 0;
+	}
+	footer{
+		text-align: center;
+		padding: 25px 0;
+		height: auto;
+	}
+	#details-image{
+		width: 55% !important;
+	}
+	#details-text,
+	.introdu-t,
+	.content-text{
+		padding: 25px 40px;
+	}
+	.item-order{
+	    order: 100;
+	}
+	.container-content{
+		text-align: center;
+		height: auto;
+		line-height: 0;
+	}
+	.title-content{
+		padding: 15px 0;
+	}
+	.last-item{
+		padding-bottom: 30px;
+	}
+	.list-icon{
+		max-height: 12vw;
+	}
+	.master-title-content{
+		font-size: 32px;
+	}
+}
+
+/*  From 0 to mobile m  */
+@media screen and (max-width: 424px){
+	.text-timer, 
+	.title-content, 
+	.list-title, 
+	.footer-title, 
+	.leads-title {
+	    font-size: 25px;
+	}
+	.master-title-content{
+		font-size: 28px;
+	}
+}
+
+/*  From 0 to mobile s  */
+@media screen and (max-width: 374px){
+	.col-sm-1{
+		padding-left: 5px;
+		padding-right: 5px;
+	}
+  	.text-details,
+  	.introdu-t,
+  	.text-content{
+  		font-size: 16px;
+  	}
+  	.footer-title,
+  	.list-title,
+  	.leads-title
+  	{
+  		font-size: 20px;
+  	}
+}
